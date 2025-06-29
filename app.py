@@ -5,7 +5,7 @@ import json
 
 # ==== CONFIGURE OPENAI API ====
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 
 # ==== LOAD DATASET ====
